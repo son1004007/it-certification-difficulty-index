@@ -1,10 +1,10 @@
 # IT Certification Difficulty Index
 
-국내외 IT, 보안, 클라우드, 데이터, AI, 프로젝트관리 자격증을 학습시간과 시험 특성을 기준으로 H1~H6 난이도로 분류한 저장소입니다.
+국내외 IT, 보안, 클라우드, 데이터, AI, 프로젝트관리 자격증을 **자격증 취득 난이도** 기준으로 H1~H6 등급으로 분류한 저장소입니다.
 
 ## 목적
 
-- 자격증별 체감 난이도 비교
+- 자격증별 취득 난이도 비교
 - 개인 학습 로드맵 설계
 - 채용 및 역량 평가 참고
 - 직무별 요구 자격증 매트릭스 작성
@@ -25,12 +25,15 @@
 | 자격증 | 분야 | 대표 학습시간 | 난이도 |
 |---|---|---:|---:|
 | AWS Cloud Practitioner | Cloud | 40h | H1 |
+| AWS AI Practitioner | Data / AI | 50h | H1 |
 | 리눅스마스터 2급 | Linux | 70h | H2 |
 | SQLD | Database | 80h | H2 |
 | 정보처리기사 | Software Engineering | 150h | H3 |
 | CPPG | Privacy / GRC | 150h | H3 |
+| 빅데이터분석기사 | Data / AI | 180h | H3 |
+| Azure Administrator AZ-104 | Cloud | 180h | H3 |
+| AWS Data Engineer Associate | Data / AI | 180h | H3 |
 | 정보보안기사 | Security | 280h | H4 |
-| 빅데이터분석기사 | Data / AI | 280h | H4 |
 | PMP | Project Management | 260h | H4 |
 | CISA | IT Audit / GRC | 300h | H4 |
 | CKA | Kubernetes | 260h | H4 |
@@ -60,6 +63,6 @@ data/difficulty-levels.yml    # 난이도 정의
 
 ## 주의사항
 
-이 저장소의 난이도는 공식 난이도가 아닙니다. IT 기본지식이 있는 응시자의 순공부시간, 시험범위, 실기 여부, 경력요건, 시나리오 판단 난이도를 종합한 추정값입니다.
+이 저장소의 난이도는 공식 난이도가 아닙니다. IT 기본지식이 있는 응시자의 순공부시간, 시험범위, 실기 여부, 경력요건, 시나리오 판단 난이도, 공개 합격률 또는 체감 취득 난이도를 종합한 추정값입니다.
 
 각 자격증은 H1~H6 중 하나의 난이도만 가집니다.
