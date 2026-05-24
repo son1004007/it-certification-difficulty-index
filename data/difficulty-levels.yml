@@ -1,0 +1,47 @@
+H1:
+  score: 1
+  label_ko: 입문
+  label_en: Beginner
+  representative_hours: 40
+  hour_range: "20-50"
+  description: "입문, 리터러시, 기본 개념 이해 중심"
+
+H2:
+  score: 2
+  label_ko: 기초 실무
+  label_en: Basic Practitioner
+  representative_hours: 80
+  hour_range: "50-100"
+  description: "기초 개념과 기본 실습 또는 기출 반복 필요"
+
+H3:
+  score: 3
+  label_ko: 중급 실무
+  label_en: Intermediate Practitioner
+  representative_hours: 150
+  hour_range: "100-200"
+  description: "실무 기초, 시나리오 이해, 문제풀이 또는 실습 필요"
+
+H4:
+  score: 4
+  label_ko: 상급 실무
+  label_en: Advanced Practitioner
+  representative_hours: 275
+  hour_range: "200-350"
+  description: "넓은 범위, 실기형 또는 실무 판단형 문제 포함"
+
+H5:
+  score: 5
+  label_ko: 전문가급
+  label_en: Expert
+  representative_hours: 500
+  hour_range: "350-700"
+  description: "전문 실무경험, 고급 설계, 감사, 튜닝, 운영 판단 필요"
+
+H6:
+  score: 6
+  label_ko: 최고난도
+  label_en: Principal / Architect
+  representative_hours: 1000
+  hour_range: "700+"
+  description: "논술, 구술, 아키텍처, 경영 판단, 장기 실무경험 요구"
