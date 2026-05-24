@@ -1,7 +1,7 @@
 # IT certification difficulty dataset
 # 기준일: 2026-05-24
 # 전제: IT 기본지식이 있는 응시자의 자격증 취득 난이도 기준
-# 원칙: 자격증 1개는 H1~H6 중 하나의 난이도만 가진다.
+# 원칙: 자격증 1개는 H1~H10 중 하나의 난이도만 가진다.
 
 - id: aws-cloud-practitioner
   name_ko: AWS Cloud Practitioner
@@ -37,7 +37,7 @@
   difficulty_score: 1
   representative_hours: 50
   status: active
-  notes: "AI/ML, 생성형 AI, AWS AI 서비스 기초. 코딩·모델 개발 중심 시험은 아님."
+  notes: "AI/ML, 생성형 AI, AWS AI 서비스 기초. 코딩과 모델 개발 중심 시험은 아님."
 
 - id: ai-pot-2
   name_ko: AI-POT 2급
@@ -135,7 +135,7 @@
   difficulty_score: 2
   representative_hours: 70
   status: active
-  notes: "기획, 마케팅, 업무 활용 관점의 AI 활용."
+  notes: "기획, 마케팅, 사무 활용 관점의 AI 활용."
 
 - id: nvidia-associate-genai-llm
   name_ko: NVIDIA Associate Generative AI LLMs
@@ -169,7 +169,7 @@
   domain: software-engineering
   difficulty: H3
   difficulty_score: 3
-  representative_hours: 150
+  representative_hours: 130
   status: active
   notes: "범위가 넓고 실기 필답형이 있어 H3로 분류."
 
@@ -181,21 +181,9 @@
   domain: governance-risk-compliance
   difficulty: H3
   difficulty_score: 3
-  representative_hours: 150
+  representative_hours: 130
   status: active
   notes: "개인정보보호 법령, 안전조치, 라이프사이클, 관리체계 중심."
-
-- id: network-manager-1
-  name_ko: 네트워크관리사 1급
-  name_en: Network Administrator Level 1
-  region: domestic
-  provider: ICQA
-  domain: network
-  difficulty: H3
-  difficulty_score: 3
-  representative_hours: 180
-  status: active
-  notes: "TCP/IP, NOS, 라우터, 스위치, 네트워크 보안 이해 필요."
 
 - id: aice-associate
   name_ko: AICE Associate
@@ -205,21 +193,9 @@
   domain: data-ai
   difficulty: H3
   difficulty_score: 3
-  representative_hours: 150
+  representative_hours: 130
   status: active
   notes: "Python 기반 데이터 분석과 AI 모델링 중급."
-
-- id: ccna
-  name_ko: CCNA
-  name_en: Cisco Certified Network Associate
-  region: international
-  provider: Cisco
-  domain: network
-  difficulty: H3
-  difficulty_score: 3
-  representative_hours: 180
-  status: active
-  notes: "라우팅, 스위칭, IP 서비스, 보안 기초, 자동화 기초."
 
 - id: comptia-security-plus
   name_ko: CompTIA Security+
@@ -231,7 +207,7 @@
   difficulty_score: 3
   representative_hours: 140
   status: active
-  notes: "보안 입문~중급. 정보보안기사보다는 낮게 분류."
+  notes: "보안 입문에서 중급 사이의 취득 난이도."
 
 - id: aws-solutions-architect-associate
   name_ko: AWS Solutions Architect Associate
@@ -241,7 +217,7 @@
   domain: cloud
   difficulty: H3
   difficulty_score: 3
-  representative_hours: 160
+  representative_hours: 150
   status: active
   notes: "AWS 아키텍처 설계 시나리오 중심의 Associate 자격."
 
@@ -253,7 +229,7 @@
   domain: cloud
   difficulty: H3
   difficulty_score: 3
-  representative_hours: 170
+  representative_hours: 150
   status: active
   notes: "AWS 서비스 기반 개발, 배포, 보안, 트러블슈팅."
 
@@ -265,9 +241,33 @@
   domain: cloud
   difficulty: H3
   difficulty_score: 3
-  representative_hours: 160
+  representative_hours: 150
   status: active
   notes: "GCP 배포, 운영, IAM, 네트워크, 컴퓨팅, 스토리지 기초."
+
+- id: network-manager-1
+  name_ko: 네트워크관리사 1급
+  name_en: Network Administrator Level 1
+  region: domestic
+  provider: ICQA
+  domain: network
+  difficulty: H4
+  difficulty_score: 4
+  representative_hours: 180
+  status: active
+  notes: "TCP/IP, NOS, 라우터, 스위치, 네트워크 보안 이해 필요."
+
+- id: ccna
+  name_ko: CCNA
+  name_en: Cisco Certified Network Associate
+  region: international
+  provider: Cisco
+  domain: network
+  difficulty: H4
+  difficulty_score: 4
+  representative_hours: 180
+  status: active
+  notes: "라우팅, 스위칭, IP 서비스, 보안 기초, 자동화 기초."
 
 - id: azure-administrator-az-104
   name_ko: Azure Administrator AZ-104
@@ -275,11 +275,11 @@
   region: international
   provider: Microsoft
   domain: cloud
-  difficulty: H3
-  difficulty_score: 3
+  difficulty: H4
+  difficulty_score: 4
   representative_hours: 180
   status: active
-  notes: "Azure 운영 Associate 자격. 취득 난이도 기준으로 H3로 조정."
+  notes: "Azure 운영 Associate 자격."
 
 - id: aws-data-engineer-associate
   name_ko: AWS Data Engineer Associate
@@ -287,11 +287,11 @@
   region: international
   provider: AWS
   domain: data-ai
-  difficulty: H3
-  difficulty_score: 3
+  difficulty: H4
+  difficulty_score: 4
   representative_hours: 180
   status: active
-  notes: "AWS 데이터 엔지니어링 Associate 자격. Professional급은 아니므로 H3로 조정."
+  notes: "AWS 데이터 엔지니어링 Associate 자격."
 
 - id: databricks-ml-associate
   name_ko: Databricks ML Associate
@@ -299,8 +299,8 @@
   region: international
   provider: Databricks
   domain: data-ai
-  difficulty: H3
-  difficulty_score: 3
+  difficulty: H4
+  difficulty_score: 4
   representative_hours: 180
   status: active
   notes: "MLflow, Databricks ML, 모델 학습, 평가, 배포 기초."
@@ -311,11 +311,11 @@
   region: domestic
   provider: 한국데이터산업진흥원
   domain: data-ai
-  difficulty: H3
-  difficulty_score: 3
+  difficulty: H4
+  difficulty_score: 4
   representative_hours: 180
   status: active
-  notes: "필기와 작업형 실기가 있지만 최근 체감 합격률과 취득 난이도를 반영해 H3로 조정."
+  notes: "필기와 작업형 실기가 있으나 취득 난이도는 중급으로 분류."
 
 - id: information-security-engineer
   name_ko: 정보보안기사
@@ -323,9 +323,9 @@
   region: domestic
   provider: KISA
   domain: security
-  difficulty: H4
-  difficulty_score: 4
-  representative_hours: 280
+  difficulty: H5
+  difficulty_score: 5
+  representative_hours: 260
   status: active
   notes: "시스템, 네트워크, 애플리케이션 보안과 관리, 법규를 모두 다룸."
 
@@ -335,11 +335,11 @@
   region: international
   provider: PMI
   domain: project-management
-  difficulty: H4
-  difficulty_score: 4
+  difficulty: H5
+  difficulty_score: 5
   representative_hours: 260
   status: active
-  notes: "180문항, 230분, 경력요건, 시나리오 판단형 특성을 반영."
+  notes: "180문항, 230분, 경력요건, 시나리오형 특성을 반영."
 
 - id: cisa
   name_ko: CISA
@@ -347,11 +347,11 @@
   region: international
   provider: ISACA
   domain: governance-risk-compliance
-  difficulty: H4
-  difficulty_score: 4
-  representative_hours: 300
+  difficulty: H5
+  difficulty_score: 5
+  representative_hours: 280
   status: active
-  notes: "150문항, 5개 직무 도메인, 감사·통제 판단형."
+  notes: "150문항, 5개 직무 도메인, 감사와 통제 중심의 시나리오형 시험."
 
 - id: aice-professional
   name_ko: AICE Professional
@@ -359,9 +359,9 @@
   region: domestic
   provider: KT
   domain: data-ai
-  difficulty: H4
-  difficulty_score: 4
-  representative_hours: 280
+  difficulty: H5
+  difficulty_score: 5
+  representative_hours: 260
   status: active
   notes: "이미지, 텍스트 등 다양한 데이터에 대한 AI 모델링과 성능평가."
 
@@ -371,11 +371,11 @@
   region: international
   provider: AWS
   domain: cloud
-  difficulty: H4
-  difficulty_score: 4
-  representative_hours: 250
+  difficulty: H5
+  difficulty_score: 5
+  representative_hours: 260
   status: active
-  notes: "운영, 모니터링, 자동화, IaC, 장애 대응 중심. Associate 중 난도가 높은 편."
+  notes: "운영, 모니터링, 자동화, IaC, 장애 대응 중심."
 
 - id: aws-ml-engineer-associate
   name_ko: AWS Machine Learning Engineer Associate
@@ -383,8 +383,8 @@
   region: international
   provider: AWS
   domain: data-ai
-  difficulty: H4
-  difficulty_score: 4
+  difficulty: H5
+  difficulty_score: 5
   representative_hours: 300
   status: active
   notes: "SageMaker, ML 파이프라인, 배포, 모니터링, 보안 중심."
@@ -395,8 +395,8 @@
   region: international
   provider: Linux Foundation
   domain: cloud-native
-  difficulty: H4
-  difficulty_score: 4
+  difficulty: H5
+  difficulty_score: 5
   representative_hours: 260
   status: active
   notes: "2시간 커맨드라인 기반 Kubernetes 실기형 시험."
@@ -407,8 +407,8 @@
   region: international
   provider: Microsoft
   domain: data-ai
-  difficulty: H4
-  difficulty_score: 4
+  difficulty: H5
+  difficulty_score: 5
   representative_hours: 260
   status: active
   notes: "Azure AI 서비스, RAG, AI 앱 구현 중심. 시험 개편 여부 확인 필요."
@@ -419,11 +419,35 @@
   region: international
   provider: Databricks
   domain: data-ai
-  difficulty: H4
-  difficulty_score: 4
+  difficulty: H5
+  difficulty_score: 5
   representative_hours: 260
   status: active
   notes: "RAG, Vector Search, Model Serving, MLflow, Unity Catalog 기반 GenAI 구현."
+
+- id: aws-security-specialty
+  name_ko: AWS Security Specialty
+  name_en: AWS Certified Security - Specialty
+  region: international
+  provider: AWS
+  domain: security
+  difficulty: H6
+  difficulty_score: 6
+  representative_hours: 400
+  status: active
+  notes: "IAM, 탐지, 인프라 보안, 데이터 보호, 대응 중심."
+
+- id: databricks-ml-professional
+  name_ko: Databricks ML Professional
+  name_en: Databricks Certified Machine Learning Professional
+  region: international
+  provider: Databricks
+  domain: data-ai
+  difficulty: H6
+  difficulty_score: 6
+  representative_hours: 400
+  status: active
+  notes: "엔터프라이즈 ML 개발, MLOps, 배포, 모니터링 중심."
 
 - id: cissp
   name_ko: CISSP
@@ -431,8 +455,8 @@
   region: international
   provider: ISC2
   domain: security
-  difficulty: H5
-  difficulty_score: 5
+  difficulty: H7
+  difficulty_score: 7
   representative_hours: 550
   status: active
   notes: "8개 보안 도메인과 5년 경력요건을 반영."
@@ -443,9 +467,9 @@
   region: domestic
   provider: KISA
   domain: governance-risk-compliance
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 500
+  difficulty: H7
+  difficulty_score: 7
+  representative_hours: 550
   status: active
   notes: "정보보호 및 개인정보보호 관리체계 심사 관점과 경력요건 필요."
 
@@ -456,24 +480,11 @@
   region: domestic
   provider: 한국데이터산업진흥원
   domain: database
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 500
+  difficulty: H7
+  difficulty_score: 7
+  representative_hours: 550
   status: active
   notes: "SQL 고급 활용, 튜닝, 성능 최적화 중심의 전문가급 자격."
-
-- id: adp
-  name_ko: ADP
-  name_en: Advanced Data Analytics Professional
-  aliases: [데이터분석 전문가]
-  region: domestic
-  provider: 한국데이터산업진흥원
-  domain: data-ai
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 600
-  status: active
-  notes: "고급 분석 설계, 모델링, 해석, 실기 역량이 필요한 전문가급 자격."
 
 - id: cks
   name_ko: CKS
@@ -481,24 +492,12 @@
   region: international
   provider: Linux Foundation
   domain: cloud-native
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 500
+  difficulty: H7
+  difficulty_score: 7
+  representative_hours: 550
   status: active
   prerequisite: cka
   notes: "CKA 선행 기반 Kubernetes 보안 실기형."
-
-- id: aws-security-specialty
-  name_ko: AWS Security Specialty
-  name_en: AWS Certified Security - Specialty
-  region: international
-  provider: AWS
-  domain: security
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 450
-  status: active
-  notes: "IAM, 탐지, 인프라 보안, 데이터 보호, 대응 중심."
 
 - id: aws-solutions-architect-professional
   name_ko: AWS Solutions Architect Professional
@@ -506,9 +505,9 @@
   region: international
   provider: AWS
   domain: cloud
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 500
+  difficulty: H7
+  difficulty_score: 7
+  representative_hours: 550
   status: active
   notes: "복합 AWS 아키텍처, 조직 규모 설계, 마이그레이션, 최적화 중심."
 
@@ -518,23 +517,11 @@
   region: international
   provider: AWS
   domain: cloud
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 500
+  difficulty: H7
+  difficulty_score: 7
+  representative_hours: 550
   status: active
   notes: "AWS CI/CD, 운영 자동화, 모니터링, 고가용성, 복원력 중심."
-
-- id: aws-genai-developer-professional
-  name_ko: AWS Generative AI Developer Professional
-  name_en: AWS Certified Generative AI Developer - Professional
-  region: international
-  provider: AWS
-  domain: data-ai
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 520
-  status: active
-  notes: "RAG, Agent, Foundation Model 통합, Responsible AI, 운영 최적화 중심."
 
 - id: google-professional-ml-engineer
   name_ko: Google Professional ML Engineer
@@ -542,23 +529,48 @@
   region: international
   provider: Google Cloud
   domain: data-ai
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 500
+  difficulty: H7
+  difficulty_score: 7
+  representative_hours: 550
   status: active
   notes: "GCP 기반 ML 시스템 설계, MLOps, 배포, 모니터링 중심."
 
-- id: databricks-ml-professional
-  name_ko: Databricks ML Professional
-  name_en: Databricks Certified Machine Learning Professional
+- id: nvidia-professional-ai-infrastructure
+  name_ko: NVIDIA Professional AI Infrastructure
+  name_en: NVIDIA Certified Professional: AI Infrastructure
   region: international
-  provider: Databricks
-  domain: data-ai
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 450
+  provider: NVIDIA
+  domain: cloud-native
+  difficulty: H7
+  difficulty_score: 7
+  representative_hours: 550
   status: active
-  notes: "엔터프라이즈 ML 개발, MLOps, 배포, 모니터링 중심."
+  notes: "GPU AI 인프라 배포, 구성, 검증, 운영 중심."
+
+- id: adp
+  name_ko: ADP
+  name_en: Advanced Data Analytics Professional
+  aliases: [데이터분석 전문가]
+  region: domestic
+  provider: 한국데이터산업진흥원
+  domain: data-ai
+  difficulty: H8
+  difficulty_score: 8
+  representative_hours: 700
+  status: active
+  notes: "고급 분석 설계, 모델링, 해석, 실기 역량이 필요한 전문가급 자격."
+
+- id: aws-genai-developer-professional
+  name_ko: AWS Generative AI Developer Professional
+  name_en: AWS Certified Generative AI Developer - Professional
+  region: international
+  provider: AWS
+  domain: data-ai
+  difficulty: H8
+  difficulty_score: 8
+  representative_hours: 700
+  status: active
+  notes: "RAG, Agent, Foundation Model 통합, Responsible AI, 운영 최적화 중심."
 
 - id: nvidia-professional-genai-llms
   name_ko: NVIDIA Professional Generative AI LLMs
@@ -566,9 +578,9 @@
   region: international
   provider: NVIDIA
   domain: data-ai
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 450
+  difficulty: H8
+  difficulty_score: 8
+  representative_hours: 700
   status: active
   notes: "LLM, GPU 기반 생성형 AI 전문 역량 중심."
 
@@ -578,23 +590,11 @@
   region: international
   provider: NVIDIA
   domain: data-ai
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 450
+  difficulty: H8
+  difficulty_score: 8
+  representative_hours: 700
   status: active
   notes: "Agentic AI, 멀티에이전트, 거버넌스, 운영 관점."
-
-- id: nvidia-professional-ai-infrastructure
-  name_ko: NVIDIA Professional AI Infrastructure
-  name_en: NVIDIA Certified Professional: AI Infrastructure
-  region: international
-  provider: NVIDIA
-  domain: cloud-native
-  difficulty: H5
-  difficulty_score: 5
-  representative_hours: 480
-  status: active
-  notes: "GPU AI 인프라 배포, 구성, 검증, 운영 중심."
 
 - id: professional-engineer-information-management
   name_ko: 정보관리기술사
@@ -602,11 +602,11 @@
   region: domestic
   provider: HRD Korea
   domain: architecture
-  difficulty: H6
-  difficulty_score: 6
+  difficulty: H10
+  difficulty_score: 10
   representative_hours: 1200
   status: active
-  notes: "논술, 구술, 아키텍처, 경영 판단, 장기 실무경험이 필요한 최고난도 자격."
+  notes: "논술, 구술, 아키텍처, 경영 판단, 장기 준비가 필요한 최고난도 자격."
 
 - id: aws-sysops-administrator-associate
   name_ko: AWS SysOps Administrator Associate
@@ -614,9 +614,9 @@
   region: international
   provider: AWS
   domain: cloud
-  difficulty: H4
-  difficulty_score: 4
-  representative_hours: 250
+  difficulty: H5
+  difficulty_score: 5
+  representative_hours: 260
   status: replaced
   replaced_by: aws-cloudops-engineer-associate
   notes: "AWS CloudOps Engineer Associate로 대체 관리."
@@ -627,8 +627,8 @@
   region: international
   provider: Google / TensorFlow
   domain: data-ai
-  difficulty: H4
-  difficulty_score: 4
-  representative_hours: 250
+  difficulty: H5
+  difficulty_score: 5
+  representative_hours: 260
   status: retired
   notes: "신규 취득 후보에서는 제외. 과거 이력 비교용으로만 관리."
