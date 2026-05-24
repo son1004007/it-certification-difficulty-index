@@ -4,7 +4,7 @@ H1:
   label_en: Beginner
   representative_hours: 40
   hour_range: "20-50"
-  description: "입문, 리터러시, 기본 개념 이해 중심"
+  description: "입문 개념과 기본 용어 중심"
 
 H2:
   score: 2
@@ -16,32 +16,64 @@ H2:
 
 H3:
   score: 3
-  label_ko: 중급
-  label_en: Intermediate
-  representative_hours: 150
-  hour_range: "100-200"
-  description: "시험범위가 넓거나 필기와 실기 대비가 함께 필요한 수준"
+  label_ko: 초중급
+  label_en: Upper Basic
+  representative_hours: 130
+  hour_range: "100-150"
+  description: "시험범위가 넓어 기본서와 문제풀이가 필요한 수준"
 
 H4:
   score: 4
-  label_ko: 상급
-  label_en: Advanced
-  representative_hours: 275
-  hour_range: "200-350"
-  description: "시험범위, 문제해석, 실기 또는 시나리오형 문항 부담이 큰 수준"
+  label_ko: 중급
+  label_en: Intermediate
+  representative_hours: 180
+  hour_range: "150-220"
+  description: "필기와 실기 또는 시나리오형 문제 대비가 필요한 수준"
 
 H5:
   score: 5
-  label_ko: 전문가급
-  label_en: Expert
-  representative_hours: 500
-  hour_range: "350-700"
-  description: "낮은 합격률, 고급 문제해석, 경력요건 또는 장기 준비가 필요한 수준"
+  label_ko: 중상급
+  label_en: Upper Intermediate
+  representative_hours: 260
+  hour_range: "220-300"
+  description: "범위, 문제해석, 작업형 또는 핸즈온 부담이 큰 수준"
 
 H6:
   score: 6
-  label_ko: 최고난도
-  label_en: Principal / Architect
+  label_ko: 상급
+  label_en: Advanced
+  representative_hours: 400
+  hour_range: "300-450"
+  description: "전문 영역의 고급 문제와 장기 대비가 필요한 수준"
+
+H7:
+  score: 7
+  label_ko: 고급
+  label_en: High Advanced
+  representative_hours: 550
+  hour_range: "450-600"
+  description: "낮은 합격률, 경력요건, 복합 시나리오가 반영되는 수준"
+
+H8:
+  score: 8
+  label_ko: 전문가
+  label_en: Expert
+  representative_hours: 700
+  hour_range: "600-800"
+  description: "장기 학습과 고급 문제해석이 필요한 전문가 수준"
+
+H9:
+  score: 9
+  label_ko: 최상급
+  label_en: Principal
   representative_hours: 1000
-  hour_range: "700+"
-  description: "논술, 구술, 장기 준비가 필요한 최고난도 수준"
+  hour_range: "800-1200"
+  description: "논술, 구술 또는 장기 누적 학습이 필요한 최상위 수준"
+
+H10:
+  score: 10
+  label_ko: 최고난도
+  label_en: Highest
+  representative_hours: 1200
+  hour_range: "1200+"
+  description: "기술사급 장기 준비가 필요한 최고난도 수준"
