@@ -1,0 +1,841 @@
+# IT certification difficulty dataset
+# 기준일: 2026-05-24
+# 전제: IT 기본지식이 있는 응시자의 순공부시간 기준
+
+- id: aws-cloud-practitioner
+  name_ko: AWS Cloud Practitioner
+  name_en: AWS Certified Cloud Practitioner
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: cloud
+  difficulty: H1
+  difficulty_score: 1
+  study_hours: { representative: 40, min: 20, max: 50 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AWS와 클라우드 기본 개념 중심의 입문 자격."
+
+- id: azure-ai-fundamentals-ai-901
+  name_ko: Azure AI Fundamentals AI-901
+  name_en: Microsoft Certified: Azure AI Fundamentals
+  region: international
+  provider: Microsoft
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H1
+  difficulty_score: 1
+  study_hours: { representative: 50, min: 20, max: 60 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AI 및 Azure AI 서비스 개념 중심의 입문 자격."
+
+- id: ai-pot-2
+  name_ko: AI-POT 2급
+  name_en: AI Prompt Operator Test Level 2
+  region: domestic
+  provider: KPC
+  provider_type: private
+  domain: data-ai
+  difficulty: H1
+  difficulty_score: 1
+  study_hours: { representative: 40, min: 20, max: 50 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "생성형 AI와 프롬프트 활용 입문 자격."
+
+- id: aice-junior
+  name_ko: AICE Junior
+  name_en: AICE Junior
+  region: domestic
+  provider: KT
+  provider_type: private
+  domain: data-ai
+  difficulty: H1
+  difficulty_score: 1
+  study_hours: { representative: 40, min: 20, max: 60 }
+  exam_type: [practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "AI 입문자 대상의 기초 활용 자격."
+
+- id: aice-basic
+  name_ko: AICE Basic
+  name_en: AICE Basic
+  region: domestic
+  provider: KT
+  provider_type: private
+  domain: data-ai
+  difficulty: H1
+  difficulty_score: 1
+  study_hours: { representative: 50, min: 30, max: 80 }
+  exam_type: [practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "AutoML 기반 AI 활용 기초 자격."
+
+- id: linux-master-2
+  name_ko: 리눅스마스터 2급
+  name_en: Linux Master Level 2
+  region: domestic
+  provider: KAIT
+  provider_type: private
+  domain: linux-os
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 70, min: 30, max: 100 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "리눅스 명령어, 파일권한, 프로세스, 네트워크 기초 중심."
+
+- id: sqld
+  name_ko: SQLD
+  name_en: SQL Developer
+  aliases: [SQL 개발자]
+  region: domestic
+  provider: 한국데이터산업진흥원
+  provider_type: private
+  domain: database
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 80, min: 50, max: 100 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "SQL 기본, SQL 활용, 데이터 모델링 중심의 기초 실무 자격."
+
+- id: adsp
+  name_ko: ADsP
+  name_en: Advanced Data Analytics Semi-Professional
+  aliases: [데이터분석 준전문가]
+  region: domestic
+  provider: 한국데이터산업진흥원
+  provider_type: private
+  domain: data-ai
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 80, min: 40, max: 100 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "데이터 이해, 분석기획, 통계, 데이터마이닝 입문 중심."
+
+- id: aws-ai-practitioner
+  name_ko: AWS AI Practitioner
+  name_en: AWS Certified AI Practitioner
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 70, min: 30, max: 100 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AI/ML, 생성형 AI, AWS AI 서비스 기초 자격."
+
+- id: ai-pot-1
+  name_ko: AI-POT 1급
+  name_en: AI Prompt Operator Test Level 1
+  region: domestic
+  provider: KPC
+  provider_type: private
+  domain: data-ai
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 90, min: 50, max: 120 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "생성형 AI 플랫폼을 이용한 프롬프트 문제해결형 자격."
+
+- id: aibt
+  name_ko: AIBT AI 비즈니스활용능력
+  name_en: AI Business Test
+  region: domestic
+  provider: KPC
+  provider_type: private
+  domain: data-ai
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 70, min: 30, max: 100 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "기획, 마케팅, 업무 활용 관점의 AI 활용 자격."
+
+- id: nvidia-associate-genai-llm
+  name_ko: NVIDIA Associate Generative AI LLMs
+  name_en: NVIDIA Certified Associate: Generative AI LLMs
+  region: international
+  provider: NVIDIA
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 80, min: 40, max: 120 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "LLM 및 생성형 AI 기초 이해 중심의 NVIDIA Associate 자격."
+
+- id: nvidia-associate-ai-infra-ops
+  name_ko: NVIDIA Associate AI Infrastructure and Operations
+  name_en: NVIDIA Certified Associate: AI Infrastructure and Operations
+  region: international
+  provider: NVIDIA
+  provider_type: vendor
+  domain: cloud-native
+  difficulty: H2
+  difficulty_score: 2
+  study_hours: { representative: 90, min: 50, max: 130 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "GPU, AI 인프라, NVIDIA 소프트웨어 스택 기초 자격."
+
+- id: information-processing-engineer
+  name_ko: 정보처리기사
+  name_en: Engineer Information Processing
+  region: domestic
+  provider: HRD Korea
+  provider_type: national
+  domain: software-engineering
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 150, min: 80, max: 200 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: true
+  status: active
+  notes: "SW 설계, 개발, DB, 프로그래밍, 정보시스템 구축관리 등 범위가 넓음."
+
+- id: cppg
+  name_ko: CPPG 개인정보관리사
+  name_en: Certified Privacy Protection General
+  region: domestic
+  provider: 개인정보보호협회
+  provider_type: private
+  domain: governance-risk-compliance
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 150, min: 80, max: 200 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "개인정보보호 법령, 안전조치, 라이프사이클, 관리체계 중심."
+
+- id: network-manager-1
+  name_ko: 네트워크관리사 1급
+  name_en: Network Administrator Level 1
+  region: domestic
+  provider: ICQA
+  provider_type: private
+  domain: network
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 180, min: 120, max: 240 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: true
+  status: active
+  notes: "TCP/IP, NOS, 라우터, 스위치, 네트워크 보안 이해 필요."
+
+- id: aice-associate
+  name_ko: AICE Associate
+  name_en: AICE Associate
+  region: domestic
+  provider: KT
+  provider_type: private
+  domain: data-ai
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 150, min: 100, max: 200 }
+  exam_type: [practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "Python 기반 데이터 분석과 AI 모델링 중급 자격."
+
+- id: ccna
+  name_ko: CCNA
+  name_en: Cisco Certified Network Associate
+  region: international
+  provider: Cisco
+  provider_type: vendor
+  domain: network
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 180, min: 120, max: 240 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "라우팅, 스위칭, IP 서비스, 보안 기초, 자동화 기초."
+
+- id: comptia-security-plus
+  name_ko: CompTIA Security+
+  name_en: CompTIA Security+
+  region: international
+  provider: CompTIA
+  provider_type: vendor
+  domain: security
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 140, min: 80, max: 180 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "보안 개념, 위협, 취약점, 운영, 보안 프로그램 관리 기초."
+
+- id: aws-solutions-architect-associate
+  name_ko: AWS Solutions Architect Associate
+  name_en: AWS Certified Solutions Architect - Associate
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: cloud
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 160, min: 100, max: 220 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AWS 아키텍처 설계 시나리오 중심의 Associate 자격."
+
+- id: aws-developer-associate
+  name_ko: AWS Developer Associate
+  name_en: AWS Certified Developer - Associate
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: cloud
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 170, min: 100, max: 220 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AWS 서비스 기반 개발, 배포, 보안, 트러블슈팅 중심."
+
+- id: google-associate-cloud-engineer
+  name_ko: Google Associate Cloud Engineer
+  name_en: Google Cloud Associate Cloud Engineer
+  region: international
+  provider: Google Cloud
+  provider_type: vendor
+  domain: cloud
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 160, min: 100, max: 220 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "GCP 배포, 운영, IAM, 네트워크, 컴퓨팅, 스토리지 기초."
+
+- id: databricks-ml-associate
+  name_ko: Databricks ML Associate
+  name_en: Databricks Certified Machine Learning Associate
+  region: international
+  provider: Databricks
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H3
+  difficulty_score: 3
+  study_hours: { representative: 180, min: 100, max: 240 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "MLflow, Databricks ML, 모델 학습, 평가, 배포 기초."
+
+- id: information-security-engineer
+  name_ko: 정보보안기사
+  name_en: Engineer Information Security
+  region: domestic
+  provider: KISA
+  provider_type: national
+  domain: security
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 280, min: 200, max: 350 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: true
+  status: active
+  notes: "시스템, 네트워크, 애플리케이션 보안과 관리, 법규를 모두 다룸."
+
+- id: bigdata-analysis-engineer
+  name_ko: 빅데이터분석기사
+  name_en: Big Data Analysis Engineer
+  region: domestic
+  provider: 한국데이터산업진흥원
+  provider_type: national
+  domain: data-ai
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 280, min: 160, max: 350 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: true
+  status: active
+  notes: "통계, 분석기획, 모델링, Python 또는 R 작업형 실기 부담 존재."
+
+- id: pmp
+  name_ko: PMP
+  name_en: Project Management Professional
+  region: international
+  provider: PMI
+  provider_type: private
+  domain: project-management
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 260, min: 150, max: 300 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: true
+  status: active
+  notes: "예측형, 애자일, 하이브리드 프로젝트관리 시나리오 판단형 자격."
+
+- id: cisa
+  name_ko: CISA
+  name_en: Certified Information Systems Auditor
+  region: international
+  provider: ISACA
+  provider_type: private
+  domain: governance-risk-compliance
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 300, min: 180, max: 350 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: true
+  status: active
+  notes: "IT 감사, 거버넌스, 시스템 개발, 운영, 정보자산 보호 중심."
+
+- id: aice-professional
+  name_ko: AICE Professional
+  name_en: AICE Professional
+  region: domestic
+  provider: KT
+  provider_type: private
+  domain: data-ai
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 280, min: 200, max: 400 }
+  exam_type: [practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "이미지, 텍스트 등 다양한 데이터에 대한 AI 모델링과 성능평가."
+
+- id: azure-administrator-az-104
+  name_ko: Azure Administrator AZ-104
+  name_en: Microsoft Certified: Azure Administrator Associate
+  region: international
+  provider: Microsoft
+  provider_type: vendor
+  domain: cloud
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 240, min: 120, max: 300 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "Azure ID, 거버넌스, 스토리지, 컴퓨팅, 네트워크, 모니터링 운영."
+
+- id: aws-data-engineer-associate
+  name_ko: AWS Data Engineer Associate
+  name_en: AWS Certified Data Engineer - Associate
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 240, min: 160, max: 320 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AWS 데이터 파이프라인, 처리, 저장, 거버넌스, 품질 관리."
+
+- id: aws-cloudops-engineer-associate
+  name_ko: AWS CloudOps Engineer Associate
+  name_en: AWS Certified CloudOps Engineer - Associate
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: cloud
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 250, min: 160, max: 320 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AWS 운영, 모니터링, 자동화, IaC, 장애 대응 중심."
+
+- id: aws-ml-engineer-associate
+  name_ko: AWS Machine Learning Engineer Associate
+  name_en: AWS Certified Machine Learning Engineer - Associate
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 300, min: 160, max: 350 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "SageMaker, ML 파이프라인, 배포, 모니터링, 보안 중심."
+
+- id: cka
+  name_ko: CKA
+  name_en: Certified Kubernetes Administrator
+  region: international
+  provider: Linux Foundation
+  provider_type: vendor
+  domain: cloud-native
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 260, min: 180, max: 350 }
+  exam_type: [hands-on, practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "Kubernetes 클러스터 운영과 트러블슈팅을 평가하는 커맨드라인 실기형 자격."
+
+- id: azure-ai-engineer
+  name_ko: Azure AI Engineer 계열
+  name_en: Microsoft Azure AI Engineer / AI App Developer
+  region: international
+  provider: Microsoft
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 260, min: 120, max: 350 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "Azure AI 서비스, RAG, AI 앱 구현 중심. 시험 개편 여부 확인 필요."
+
+- id: databricks-genai-engineer-associate
+  name_ko: Databricks GenAI Engineer Associate
+  name_en: Databricks Certified Generative AI Engineer Associate
+  region: international
+  provider: Databricks
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 260, min: 120, max: 350 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "RAG, Vector Search, Model Serving, MLflow, Unity Catalog 기반 GenAI 구현."
+
+- id: cissp
+  name_ko: CISSP
+  name_en: Certified Information Systems Security Professional
+  region: international
+  provider: ISC2
+  provider_type: private
+  domain: security
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 550, min: 300, max: 700 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: true
+  status: active
+  notes: "8개 보안 도메인과 경력 기반 보안관리 판단력이 필요한 전문가급 자격."
+
+- id: isms-p-auditor
+  name_ko: ISMS-P 인증심사원
+  name_en: ISMS-P Auditor
+  region: domestic
+  provider: KISA
+  provider_type: national
+  domain: governance-risk-compliance
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 500, min: 250, max: 700 }
+  exam_type: [written, training, evaluation]
+  has_practical_exam: true
+  experience_requirement: true
+  status: active
+  notes: "정보보호 및 개인정보보호 관리체계 심사 관점과 경력요건 필요."
+
+- id: sqlp
+  name_ko: SQLP
+  name_en: SQL Professional
+  aliases: [SQL 전문가]
+  region: domestic
+  provider: 한국데이터산업진흥원
+  provider_type: private
+  domain: database
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 500, min: 350, max: 700 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "SQL 고급 활용, 튜닝, 성능 최적화 중심의 전문가급 자격."
+
+- id: adp
+  name_ko: ADP
+  name_en: Advanced Data Analytics Professional
+  aliases: [데이터분석 전문가]
+  region: domestic
+  provider: 한국데이터산업진흥원
+  provider_type: private
+  domain: data-ai
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 600, min: 350, max: 700 }
+  exam_type: [written, practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: active
+  notes: "고급 분석 설계, 모델링, 해석, 실기 역량이 필요한 데이터분석 전문가 자격."
+
+- id: cks
+  name_ko: CKS
+  name_en: Certified Kubernetes Security Specialist
+  region: international
+  provider: Linux Foundation
+  provider_type: vendor
+  domain: cloud-native
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 500, min: 300, max: 700 }
+  exam_type: [hands-on, practical]
+  has_practical_exam: true
+  experience_requirement: false
+  prerequisite: cka
+  status: active
+  notes: "CKA 선행 기반의 Kubernetes 보안 실기형 전문가 자격."
+
+- id: aws-security-specialty
+  name_ko: AWS Security Specialty
+  name_en: AWS Certified Security - Specialty
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: security
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 450, min: 300, max: 600 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AWS 보안 전문 자격. IAM, 탐지, 인프라 보안, 데이터 보호, 대응 중심."
+
+- id: aws-solutions-architect-professional
+  name_ko: AWS Solutions Architect Professional
+  name_en: AWS Certified Solutions Architect - Professional
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: cloud
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 500, min: 300, max: 700 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "복합 AWS 아키텍처, 조직 규모 설계, 마이그레이션, 최적화 중심."
+
+- id: aws-devops-engineer-professional
+  name_ko: AWS DevOps Engineer Professional
+  name_en: AWS Certified DevOps Engineer - Professional
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: cloud
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 500, min: 300, max: 700 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "AWS CI/CD, 운영 자동화, 모니터링, 고가용성, 복원력 중심."
+
+- id: aws-genai-developer-professional
+  name_ko: AWS Generative AI Developer Professional
+  name_en: AWS Certified Generative AI Developer - Professional
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 520, min: 300, max: 700 }
+  exam_type: [written, scenario-based]
+  has_practical_exam: false
+  experience_requirement: true
+  status: active
+  notes: "RAG, Agent, Foundation Model 통합, Responsible AI, 운영 최적화 중심."
+
+- id: google-professional-ml-engineer
+  name_ko: Google Professional ML Engineer
+  name_en: Google Cloud Professional Machine Learning Engineer
+  region: international
+  provider: Google Cloud
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 500, min: 250, max: 700 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "GCP 기반 ML 시스템 설계, MLOps, 배포, 모니터링 중심."
+
+- id: databricks-ml-professional
+  name_ko: Databricks ML Professional
+  name_en: Databricks Certified Machine Learning Professional
+  region: international
+  provider: Databricks
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 450, min: 250, max: 600 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "엔터프라이즈 ML 개발, MLOps, 배포, 모니터링 중심."
+
+- id: nvidia-professional-genai-llms
+  name_ko: NVIDIA Professional Generative AI LLMs
+  name_en: NVIDIA Certified Professional: Generative AI LLMs
+  region: international
+  provider: NVIDIA
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 450, min: 250, max: 600 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "LLM, GPU 기반 생성형 AI 전문 역량 중심."
+
+- id: nvidia-professional-agentic-ai
+  name_ko: NVIDIA Professional Agentic AI
+  name_en: NVIDIA Certified Professional: Agentic AI
+  region: international
+  provider: NVIDIA
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 450, min: 250, max: 600 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "Agentic AI, 멀티에이전트, 거버넌스, 운영 관점의 전문 자격."
+
+- id: nvidia-professional-ai-infrastructure
+  name_ko: NVIDIA Professional AI Infrastructure
+  name_en: NVIDIA Certified Professional: AI Infrastructure
+  region: international
+  provider: NVIDIA
+  provider_type: vendor
+  domain: cloud-native
+  difficulty: H5
+  difficulty_score: 5
+  study_hours: { representative: 480, min: 250, max: 650 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: active
+  notes: "GPU AI 인프라 배포, 구성, 검증, 운영 중심."
+
+- id: professional-engineer-information-management
+  name_ko: 정보관리기술사
+  name_en: Professional Engineer Information Management
+  region: domestic
+  provider: HRD Korea
+  provider_type: national
+  domain: architecture
+  difficulty: H6
+  difficulty_score: 6
+  study_hours: { representative: 1200, min: 800, max: 1500 }
+  exam_type: [essay, interview]
+  has_practical_exam: true
+  experience_requirement: true
+  status: active
+  notes: "논술, 구술, 아키텍처, 경영 판단, 장기 실무경험이 필요한 최고난도 자격."
+
+- id: aws-sysops-administrator-associate
+  name_ko: AWS SysOps Administrator Associate
+  name_en: AWS Certified SysOps Administrator - Associate
+  region: international
+  provider: AWS
+  provider_type: vendor
+  domain: cloud
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 250, min: 160, max: 320 }
+  exam_type: [written]
+  has_practical_exam: false
+  experience_requirement: false
+  status: replaced
+  replaced_by: aws-cloudops-engineer-associate
+  notes: "AWS CloudOps Engineer Associate로 대체 관리."
+
+- id: tensorflow-developer-certificate
+  name_ko: TensorFlow Developer Certificate
+  name_en: TensorFlow Developer Certificate
+  region: international
+  provider: Google / TensorFlow
+  provider_type: vendor
+  domain: data-ai
+  difficulty: H4
+  difficulty_score: 4
+  study_hours: { representative: 250, min: 150, max: 350 }
+  exam_type: [practical]
+  has_practical_exam: true
+  experience_requirement: false
+  status: retired
+  notes: "신규 취득 후보에서는 제외. 과거 이력 비교용으로만 관리."
